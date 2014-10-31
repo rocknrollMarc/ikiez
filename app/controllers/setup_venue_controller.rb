@@ -22,7 +22,7 @@ class SetupVenueController < ApplicationController
   private
 
   def redirect_to_finish_wizard
-    redirect_to dashboard_path, notice: "Thank you for signing up."
+    redirect_to dashboard_path, notice: "Thank you for signing up. You can now build your Venue"
   end
 
   def venue_params

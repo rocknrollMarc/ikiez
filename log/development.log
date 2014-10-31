@@ -84770,3 +84770,5025 @@ Migrating to CreateVenues (20141031154205)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20141031154205')
   [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:08:20 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mPlan Load (0.3ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (17.6ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+Completed 200 OK in 518ms (Views: 467.8ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/venues.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/venues.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:21 +0100
+
+
+Started GET "/users/sign_up?plan_id=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mPlan Load (0.2ms)[0m  SELECT `plans`.* FROM `plans`
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navbar.html.erb (1.3ms)
+Completed 200 OK in 23ms (Views: 17.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up?plan_id=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mPlan Load (0.3ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 20ms (Views: 15.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:29 +0100
+
+
+Started GET "/users/sign_up?plan_id=1" for 127.0.0.1 at 2014-10-31 17:08:33 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:08:33 +0100
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mPlan Load (0.3ms)[0m  SELECT `plans`.* FROM `plans`
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 22ms (Views: 16.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_up?plan_id=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mPlan Load (0.2ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:34 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-10-31 17:08:43 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"du2h7aEhOpACgz66oetO37nhS6P0QledT0TeXSF5JiQ="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 12ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-10-31 17:08:43 +0100
+Processing by HomeController#index as HTML
+  [1m[36mPlan Load (0.3ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:44 +0100
+
+
+Started GET "/users/sign_up?plan_id=2" for 127.0.0.1 at 2014-10-31 17:08:47 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"2"}
+  [1m[35m (0.3ms)[0m  SELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` = 2
+  Rendered devise/shared/_links.erb (1.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (22.0ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up?plan_id=2" for 127.0.0.1 at 2014-10-31 17:08:47 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"2"}
+  [1m[36m (0.3ms)[0m  [1mSELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` = 2[0m
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:08:48 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2014-10-31 17:09:26 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBlrwQIHri51Jb5zBZ+RaZq5MsLfNaQFksMoU6//3GA=", "user"=>{"name"=>"unsereBude", "email"=>"bluemner@yahoo.de", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "plan_id"=>"2"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'bluemner@yahoo.de' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `email`, `encrypted_password`, `name`, `plan_id`, `updated_at`) VALUES ('2014-10-31 16:09:26', 'bluemner@yahoo.de', '$2a$10$JJ4UY/ubNs0.nJy3NIEb.OBSOYucqSZGOzs2ATSsffIHGzJzLtzQe', 'unsereBude', 2, '2014-10-31 16:09:26')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2014-10-31 16:09:26', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2014-10-31 16:09:26', `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2014-10-31 16:09:26' WHERE `users`.`id` = 2[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/setup_organization/organization_setup
+Completed 302 Found in 102ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/setup_organization/organization_setup" for 127.0.0.1 at 2014-10-31 17:09:26 +0100
+Processing by SetupOrganizationController#show as HTML
+  Parameters: {"id"=>"organization_setup"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered organizations/_wizard.html.erb (6.5ms)
+  Rendered setup_organization/organization_setup.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 43ms (Views: 21.6ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:27 +0100
+
+
+Started PUT "/setup_organization/organization_setup" for 127.0.0.1 at 2014-10-31 17:10:03 +0100
+Processing by SetupOrganizationController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HBlrwQIHri51Jb5zBZ+RaZq5MsLfNaQFksMoU6//3GA=", "organization"=>{"name"=>"Kackverein", "description"=>"unser tolles kackverein"}, "commit"=>"Create", "id"=>"organization_setup"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `organizations` (`created_at`, `description`, `name`, `updated_at`) VALUES ('2014-10-31 16:10:03', 'unser tolles kackverein', 'Kackverein', '2014-10-31 16:10:03')
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `organizations_users` (`user_id`) VALUES (2)[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `organizations_users` SET `organization_id` = 2 WHERE `organizations_users`.`id` = 2
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/setup_organization/finish
+Completed 302 Found in 45ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/setup_organization/finish" for 127.0.0.1 at 2014-10-31 17:10:03 +0100
+Processing by SetupOrganizationController#show as HTML
+  Parameters: {"id"=>"finish"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:10:03 +0100
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mPlan Load (0.4ms)[0m  SELECT `plans`.* FROM `plans`
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 22ms (Views: 16.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:04 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (7.3ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 2  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.3ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 17.2ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (6.2ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 2  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 33ms (Views: 17.1ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:15 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:16 +0100
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (1.2ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 2  ORDER BY `organizations`.`id` ASC LIMIT 1
+  Rendered restaurants/_form_errors.html.erb (0.6ms)
+  Rendered restaurants/_form.html.erb (13.7ms)
+  Rendered restaurants/new.html.erb within layouts/application (15.2ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 50ms (Views: 29.3ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (5.7ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 2  ORDER BY `organizations`.`id` ASC LIMIT 1
+  Rendered restaurants/_form_errors.html.erb (0.4ms)
+  Rendered restaurants/_form.html.erb (3.8ms)
+  Rendered restaurants/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 32ms (Views: 18.9ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:21 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (1.2ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 2  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 23ms (Views: 15.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (6.8ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 2  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 17.8ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:10:26 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:19:17 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mPlan Load (0.3ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (16.9ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+Completed 200 OK in 240ms (Views: 195.5ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:18 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HBlrwQIHri51Jb5zBZ+RaZq5MsLfNaQFksMoU6//3GA="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 11ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+Processing by HomeController#index as HTML
+  [1m[36mPlan Load (0.3ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 14.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:29 +0100
+
+
+Started GET "/users/sign_up?plan_id=3" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"3"}
+  [1m[35m (0.3ms)[0m  SELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` = 3
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up?plan_id=3" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"3"}
+  [1m[36m (0.3ms)[0m  [1mSELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` = 3[0m
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:19:48 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2014-10-31 17:20:24 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BmwwDaZMOucWqri+BUT38JBagFufSuyjJ/0Mo/VoxmQ=", "user"=>{"name"=>"Mampaey", "email"=>"marc.bluemner@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "plan_id"=>"3"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'marc.bluemner@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mSELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` IS NULL[0m
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 114ms (Views: 23.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:25 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2014-10-31 17:20:43 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BmwwDaZMOucWqri+BUT38JBagFufSuyjJ/0Mo/VoxmQ=", "user"=>{"name"=>"Mampaey", "email"=>"celina.bluemner@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "plan_id"=>""}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'celina.bluemner@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `email`, `encrypted_password`, `name`, `updated_at`) VALUES ('2014-10-31 16:20:43', 'celina.bluemner@gmail.com', '$2a$10$DtAuUfARzdNixYCatxLmKuMP.ynN6cX9CDb8vyFy4eYPO6jPXN5W.', 'Mampaey', '2014-10-31 16:20:43')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2014-10-31 16:20:43', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2014-10-31 16:20:43', `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2014-10-31 16:20:43' WHERE `users`.`id` = 3[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/setup_organization/organization_setup
+Completed 302 Found in 93ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/setup_organization/organization_setup" for 127.0.0.1 at 2014-10-31 17:20:43 +0100
+Processing by SetupOrganizationController#show as HTML
+  Parameters: {"id"=>"organization_setup"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered organizations/_wizard.html.erb (6.5ms)
+  Rendered setup_organization/organization_setup.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 42ms (Views: 20.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:20:44 +0100
+
+
+Started PUT "/setup_organization/organization_setup" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+Processing by SetupOrganizationController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BmwwDaZMOucWqri+BUT38JBagFufSuyjJ/0Mo/VoxmQ=", "organization"=>{"name"=>"Cobra bar", "description"=>"Rocknroll place to be"}, "commit"=>"Create", "id"=>"organization_setup"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `organizations` (`created_at`, `description`, `name`, `updated_at`) VALUES ('2014-10-31 16:21:14', 'Rocknroll place to be', 'Cobra bar', '2014-10-31 16:21:14')
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `organizations_users` (`user_id`) VALUES (3)[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `organizations_users` SET `organization_id` = 3 WHERE `organizations_users`.`id` = 3
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/setup_organization/finish
+Completed 302 Found in 50ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/setup_organization/finish" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+Processing by SetupOrganizationController#show as HTML
+  Parameters: {"id"=>"finish"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mPlan Load (0.2ms)[0m  SELECT `plans`.* FROM `plans`
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 19ms (Views: 14.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:15 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:21:19 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (7.6ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.3ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navbar.html.erb (1.1ms)
+Completed 200 OK in 52ms (Views: 19.1ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:21:19 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (11.8ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 16.1ms | ActiveRecord: 12.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:20 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (7.7ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 14.9ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (1.3ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 24ms (Views: 16.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:32 +0100
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (1.2ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1
+  Rendered restaurants/_form_errors.html.erb (0.5ms)
+  Rendered restaurants/_form.html.erb (7.8ms)
+  Rendered restaurants/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 45ms (Views: 22.9ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (12.5ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1
+  Rendered restaurants/_form_errors.html.erb (0.4ms)
+  Rendered restaurants/_form.html.erb (4.0ms)
+  Rendered restaurants/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 45ms (Views: 19.2ms | ActiveRecord: 12.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:38 +0100
+
+
+Started POST "/restaurants" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+Processing by RestaurantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BmwwDaZMOucWqri+BUT38JBagFufSuyjJ/0Mo/VoxmQ=", "restaurant"=>{"name"=>"home", "description"=>"home sweet home"}, "commit"=>"Create Restaurant"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (11.2ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mRestaurant Exists (0.3ms)[0m  SELECT  1 AS one FROM `restaurants`  WHERE `restaurants`.`slug` = 'home' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `restaurants` (`created_at`, `description`, `name`, `organization_id`, `slug`, `updated_at`) VALUES ('2014-10-31 16:21:48', 'home sweet home', 'home', 3, 'home', '2014-10-31 16:21:48')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/restaurants/home
+Completed 302 Found in 108ms (ActiveRecord: 12.6ms)
+
+
+Started GET "/restaurants/home" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"home"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`slug` = 'home'  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36mMenu Load (0.3ms)[0m  [1mSELECT `menus`.* FROM `menus`  WHERE `menus`.`restaurant_id` = 1[0m
+  Rendered restaurants/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 40ms (Views: 17.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:21:48 +0100
+
+
+Started GET "/menus/new?restaurant_id=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+Processing by MenusController#new as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered menus/_form.html.erb (24.9ms)
+  Rendered menus/new.html.erb within layouts/application (26.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 49ms (Views: 38.3ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/menus/new?restaurant_id=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+Processing by MenusController#new as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered menus/_form.html.erb (6.1ms)
+  Rendered menus/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 22.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:22:20 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:26:04 +0100
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mPlan Load (0.2ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (1.1ms)
+Completed 200 OK in 21ms (Views: 16.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:04 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:26:05 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:26:19 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (1.2ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.html.erb within layouts/application (18.7ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (undefined local variable or method `event' for #<#<Class:0x007fd0c934ce88>:0x007fd0cdd931b8>):
+     7:         <td><%= restaurant.name %></td>
+     8:         <td><%= restaurant.description %></td>
+     9:         
+    10:         <td><%= link_to 'Show', event, :class=>"btn btn-default" %></td>
+    11:         <% if current_user.has_role? "owner"%>
+    12: 	 <td><%= link_to 'Edit', edit_restaurant_path(restaurant), :class=>"btn btn-default" %></td>
+    13: 	 <td><%= link_to 'Destroy', event , method: :delete, data: { confirm: 'Are you sure?' }, :class=>"btn btn-default" %></td>
+  app/views/restaurants/index.html.erb:10:in `block in _app_views_restaurants_index_html_erb___3860899377014887094_70267352788320'
+  app/views/restaurants/index.html.erb:5:in `_app_views_restaurants_index_html_erb___3860899377014887094_70267352788320'
+
+
+  Rendered /Users/marc/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/marc/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/marc/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.5ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:26:19 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (7.0ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.3ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.html.erb within layouts/application (15.2ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (undefined local variable or method `event' for #<#<Class:0x007fd0c934ce88>:0x007fd0cde6a3c0>):
+     7:         <td><%= restaurant.name %></td>
+     8:         <td><%= restaurant.description %></td>
+     9:         
+    10:         <td><%= link_to 'Show', event, :class=>"btn btn-default" %></td>
+    11:         <% if current_user.has_role? "owner"%>
+    12: 	 <td><%= link_to 'Edit', edit_restaurant_path(restaurant), :class=>"btn btn-default" %></td>
+    13: 	 <td><%= link_to 'Destroy', event , method: :delete, data: { confirm: 'Are you sure?' }, :class=>"btn btn-default" %></td>
+  app/views/restaurants/index.html.erb:10:in `block in _app_views_restaurants_index_html_erb___3860899377014887094_70267351464720'
+  app/views/restaurants/index.html.erb:5:in `_app_views_restaurants_index_html_erb___3860899377014887094_70267351464720'
+
+
+  Rendered /Users/marc/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.0.beta1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/marc/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.0.beta1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/marc/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.0.beta1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.1ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.7ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 3 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  Rendered restaurants/index.html.erb within layouts/application (18.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 27.6ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:18 +0100
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.6ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  Rendered restaurants/_form_errors.html.erb (0.0ms)
+  Rendered restaurants/_form.html.erb (2.7ms)
+  Rendered restaurants/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 30ms (Views: 16.2ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (5.8ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  Rendered restaurants/_form_errors.html.erb (0.0ms)
+  Rendered restaurants/_form.html.erb (2.4ms)
+  Rendered restaurants/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 15.6ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:29 +0100
+
+
+Started POST "/restaurants" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+Processing by RestaurantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BmwwDaZMOucWqri+BUT38JBagFufSuyjJ/0Mo/VoxmQ=", "restaurant"=>{"name"=>"tanz in den tod", "description"=>"Ja wie der name schon sagt hier werden alle masakriert"}, "commit"=>"Create Restaurant"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (16.5ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `restaurants`  WHERE `restaurants`.`slug` = 'tanz-in-den-tod' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `restaurants` (`created_at`, `description`, `name`, `organization_id`, `slug`, `updated_at`) VALUES ('2014-10-31 16:27:52', 'Ja wie der name schon sagt hier werden alle masakriert', 'tanz in den tod', 3, 'tanz-in-den-tod', '2014-10-31 16:27:52')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/restaurants/tanz-in-den-tod
+Completed 302 Found in 36ms (ActiveRecord: 18.0ms)
+
+
+Started GET "/restaurants/tanz-in-den-tod" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"tanz-in-den-tod"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`slug` = 'tanz-in-den-tod'  ORDER BY `restaurants`.`id` ASC LIMIT 1[0m
+  [1m[35mMenu Load (0.2ms)[0m  SELECT `menus`.* FROM `menus`  WHERE `menus`.`restaurant_id` = 2
+  Rendered restaurants/show.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 14.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:27:52 +0100
+
+
+Started GET "/menus/new?restaurant_id=2" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+Processing by MenusController#new as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered menus/_form.html.erb (4.2ms)
+  Rendered menus/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus/new?restaurant_id=2" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+Processing by MenusController#new as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered menus/_form.html.erb (4.1ms)
+  Rendered menus/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:06 +0100
+
+
+Started GET "/restaurants/tanz-in-den-tod" for 127.0.0.1 at 2014-10-31 17:28:13 +0100
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"tanz-in-den-tod"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.4ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`slug` = 'tanz-in-den-tod'  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36mMenu Load (0.3ms)[0m  [1mSELECT `menus`.* FROM `menus`  WHERE `menus`.`restaurant_id` = 2[0m
+  Rendered restaurants/show.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 36ms (Views: 27.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.4ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  Rendered restaurants/_form_errors.html.erb (0.0ms)
+  Rendered restaurants/_form.html.erb (2.9ms)
+  Rendered restaurants/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 32ms (Views: 17.1ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:28:15 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:29:24 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (1.3ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 3 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 3 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 3]]
+  Rendered restaurants/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 22.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:29:24 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (10.9ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 3  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 3 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 3 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 3]]
+  Rendered restaurants/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 21.5ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:25 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BmwwDaZMOucWqri+BUT38JBagFufSuyjJ/0Mo/VoxmQ="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 11ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+Processing by HomeController#index as HTML
+  [1m[36mPlan Load (0.3ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:50 +0100
+
+
+Started GET "/users/sign_up?plan_id=2" for 127.0.0.1 at 2014-10-31 17:29:58 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"2"}
+  [1m[35m (0.3ms)[0m  SELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` = 2
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up?plan_id=2" for 127.0.0.1 at 2014-10-31 17:29:58 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"2"}
+  [1m[36m (0.3ms)[0m  [1mSELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` = 2[0m
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:29:59 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ke2cTPazOdjR6yx04Ut7uZr4+a7U5BkLdGBWkIDYfBQ=", "user"=>{"name"=>"marc", "email"=>"marc@marc.de", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "plan_id"=>"2"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'marc@marc.de' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `email`, `encrypted_password`, `name`, `plan_id`, `updated_at`) VALUES ('2014-10-31 16:30:30', 'marc@marc.de', '$2a$10$6KB5VhtOBGlC/44QfILcc.zobOFJ2CTeXamPfuU71uF8KOcfPqkP6', 'marc', 2, '2014-10-31 16:30:30')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2014-10-31 16:30:30', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2014-10-31 16:30:30', `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2014-10-31 16:30:30' WHERE `users`.`id` = 4[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/setup_organization/organization_setup
+Completed 302 Found in 88ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/setup_organization/organization_setup" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+Processing by SetupOrganizationController#show as HTML
+  Parameters: {"id"=>"organization_setup"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered organizations/_wizard.html.erb (5.1ms)
+  Rendered setup_organization/organization_setup.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:30 +0100
+
+
+Started PUT "/setup_organization/organization_setup" for 127.0.0.1 at 2014-10-31 17:30:41 +0100
+Processing by SetupOrganizationController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ke2cTPazOdjR6yx04Ut7uZr4+a7U5BkLdGBWkIDYfBQ=", "organization"=>{"name"=>"kack bratz", "description"=>"tolle bar"}, "commit"=>"Create", "id"=>"organization_setup"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `organizations` (`created_at`, `description`, `name`, `updated_at`) VALUES ('2014-10-31 16:30:41', 'tolle bar', 'kack bratz', '2014-10-31 16:30:41')
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `organizations_users` (`user_id`) VALUES (4)[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `organizations_users` SET `organization_id` = 4 WHERE `organizations_users`.`id` = 4
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/setup_organization/finish
+Completed 302 Found in 27ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/setup_organization/finish" for 127.0.0.1 at 2014-10-31 17:30:41 +0100
+Processing by SetupOrganizationController#show as HTML
+  Parameters: {"id"=>"finish"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:30:41 +0100
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mPlan Load (0.3ms)[0m  SELECT `plans`.* FROM `plans`
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 23ms (Views: 16.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:42 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (7.8ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.3ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 4]]
+  Rendered restaurants/index.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 24.2ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (2.4ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 4]]
+  Rendered restaurants/index.html.erb within layouts/application (11.7ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 37ms (Views: 25.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:48 +0100
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (7.5ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1
+  Rendered restaurants/_form_errors.html.erb (0.0ms)
+  Rendered restaurants/_form.html.erb (2.7ms)
+  Rendered restaurants/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 16.8ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (5.7ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1
+  Rendered restaurants/_form_errors.html.erb (0.0ms)
+  Rendered restaurants/_form.html.erb (2.6ms)
+  Rendered restaurants/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 16.2ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:30:55 +0100
+
+
+Started POST "/restaurants" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+Processing by RestaurantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ke2cTPazOdjR6yx04Ut7uZr4+a7U5BkLdGBWkIDYfBQ=", "restaurant"=>{"name"=>"kackbar2", "description"=>""}, "commit"=>"Create Restaurant"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrganization Load (11.4ms)[0m  SELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mRestaurant Exists (0.2ms)[0m  SELECT  1 AS one FROM `restaurants`  WHERE `restaurants`.`slug` = 'kackbar2' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `restaurants` (`created_at`, `description`, `name`, `organization_id`, `slug`, `updated_at`) VALUES ('2014-10-31 16:31:05', '', 'kackbar2', 4, 'kackbar2', '2014-10-31 16:31:05')[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/restaurants/kackbar2
+Completed 302 Found in 28ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/restaurants/kackbar2" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"kackbar2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`slug` = 'kackbar2'  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36mMenu Load (0.2ms)[0m  [1mSELECT `menus`.* FROM `menus`  WHERE `menus`.`restaurant_id` = 3[0m
+  Rendered restaurants/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 19ms (Views: 14.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:05 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.9ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 4]]
+  Rendered restaurants/index.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 24.9ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (6.7ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 4 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 4]]
+  Rendered restaurants/index.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 24.9ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:13 +0100
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.8ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  Rendered restaurants/_form_errors.html.erb (0.0ms)
+  Rendered restaurants/_form.html.erb (2.8ms)
+  Rendered restaurants/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 17.0ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 4  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (11.5ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 4  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  Rendered restaurants/_form_errors.html.erb (0.0ms)
+  Rendered restaurants/_form.html.erb (2.4ms)
+  Rendered restaurants/new.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 15.5ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/setup_venue.css?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:31:24 +0100

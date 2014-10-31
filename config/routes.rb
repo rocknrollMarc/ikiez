@@ -1,6 +1,4 @@
 Project4::Application.routes.draw do
-  resources :venues
-
   mount StripeEvent::Engine => '/stripe'
 
   resources :organizations
