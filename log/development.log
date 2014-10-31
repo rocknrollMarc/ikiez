@@ -91426,3 +91426,886 @@ Started GET "/assets/setup_venue.js?body=1" for 127.0.0.1 at 2014-10-31 17:49:20
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:49:20 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:57:00 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mPlan Load (0.3ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (18.8ms)
+  Rendered layouts/_navbar.html.erb (1.8ms)
+Completed 200 OK in 252ms (Views: 205.2ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:01 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-10-31 17:57:10 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"e4zdM4CldMnYlLs28YrI6GxU2/sppXSu8q9fwpPfE+Q="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 5  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 14ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-10-31 17:57:10 +0100
+Processing by HomeController#index as HTML
+  [1m[36mPlan Load (0.4ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 29ms (Views: 21.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:10 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:10 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:10 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:10 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:57:11 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 21:14:16 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mPlan Load (0.3ms)[0m  SELECT `plans`.* FROM `plans`
+  Rendered home/index.html.erb within layouts/application (17.7ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 185ms (Views: 164.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:16 +0100
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:16 +0100
+
+
+Started GET "/assets/theme.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:16 +0100
+
+
+Started GET "/assets/carousel.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/setup_organization.css?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/setup_organization.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:14:17 +0100
+
+
+Started GET "/users/sign_up?plan_id=2" for 127.0.0.1 at 2014-10-31 21:34:14 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"2"}
+  [1m[36m (0.3ms)[0m  [1mSELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` = 2[0m
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (30.5ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 44.2ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/users/sign_up?plan_id=2" for 127.0.0.1 at 2014-10-31 21:34:15 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan_id"=>"2"}
+  [1m[35m (0.3ms)[0m  SELECT `plans`.`name` FROM `plans`  WHERE `plans`.`id` = 2
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:34:15 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:34:15 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:34:15 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2014-10-31 21:35:06 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfesH4eE9LE/N4yCFO9svy+aI54EkCG94Ga0Rwb+P+s=", "user"=>{"name"=>"mamandpaey", "email"=>"celinzki03@yahoo.de", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "plan_id"=>"2"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'celinzki03@yahoo.de' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `encrypted_password`, `name`, `plan_id`, `updated_at`) VALUES ('2014-10-31 20:35:07', 'celinzki03@yahoo.de', '$2a$10$E.6xBIqxnXl5esSmF38Lnukuk/dvvrgrZ.aep9Pn2PHHRjzYq7Hzq', 'mamandpaey', 2, '2014-10-31 20:35:07')[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2014-10-31 20:35:07', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2014-10-31 20:35:07', `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2014-10-31 20:35:07' WHERE `users`.`id` = 6
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:4000/setup_organization/organization_setup
+Completed 302 Found in 102ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/setup_organization/organization_setup" for 127.0.0.1 at 2014-10-31 21:35:07 +0100
+Processing by SetupOrganizationController#show as HTML
+  Parameters: {"id"=>"organization_setup"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered organizations/_wizard.html.erb (12.5ms)
+  Rendered setup_organization/organization_setup.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 45ms (Views: 27.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:35:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:35:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:35:07 +0100
+
+
+Started PUT "/setup_organization/organization_setup" for 127.0.0.1 at 2014-10-31 21:36:07 +0100
+Processing by SetupOrganizationController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfesH4eE9LE/N4yCFO9svy+aI54EkCG94Ga0Rwb+P+s=", "organization"=>{"name"=>"Die koppel", "description"=>"rocknroll hintrern nach vorne"}, "commit"=>"Create", "id"=>"organization_setup"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `organizations` (`created_at`, `description`, `name`, `updated_at`) VALUES ('2014-10-31 20:36:07', 'rocknroll hintrern nach vorne', 'Die koppel', '2014-10-31 20:36:07')[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `organizations_users` (`user_id`) VALUES (6)
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `organizations_users` SET `organization_id` = 6 WHERE `organizations_users`.`id` = 6[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:4000/setup_organization/finish
+Completed 302 Found in 52ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/setup_organization/finish" for 127.0.0.1 at 2014-10-31 21:36:07 +0100
+Processing by SetupOrganizationController#show as HTML
+  Parameters: {"id"=>"finish"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:4000/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 21:36:07 +0100
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mPlan Load (0.2ms)[0m  [1mSELECT `plans`.* FROM `plans`[0m
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 20ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:36:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:07 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:36:30 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (1.3ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (41.2ms)
+  Rendered layouts/_navbar.html.erb (1.2ms)
+Completed 200 OK in 74ms (Views: 51.1ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:36:30 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (6.4ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 27.9ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:36:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:31 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:36:47 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.7ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (14.1ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 43ms (Views: 27.0ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:36:47 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.0ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (13.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 26.1ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:36:47 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:47 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:47 +0100
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 21:36:52 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.8ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  Rendered restaurants/_form_errors.html.erb (0.4ms)
+  Rendered restaurants/_form.html.erb (4.2ms)
+  Rendered restaurants/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 20.3ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2014-10-31 21:36:52 +0100
+Processing by RestaurantsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (5.9ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  Rendered restaurants/_form_errors.html.erb (0.6ms)
+  Rendered restaurants/_form.html.erb (4.0ms)
+  Rendered restaurants/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 22.9ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:36:52 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:52 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:52 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:36:56 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (1.3ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 26.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:36:56 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (5.8ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (14.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 27.1ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:36:57 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:57 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:36:57 +0100
+
+
+Started GET "/restaurants/home" for 127.0.0.1 at 2014-10-31 21:37:00 +0100
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"home"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.2ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`slug` = 'home'  ORDER BY `restaurants`.`id` ASC LIMIT 1[0m
+  [1m[35mMenu Load (0.3ms)[0m  SELECT `menus`.* FROM `menus`  WHERE `menus`.`restaurant_id` = 1
+  Rendered restaurants/show.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 44ms (Views: 18.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/home" for 127.0.0.1 at 2014-10-31 21:37:00 +0100
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"home"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`slug` = 'home'  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36mMenu Load (0.3ms)[0m  [1mSELECT `menus`.* FROM `menus`  WHERE `menus`.`restaurant_id` = 1[0m
+  Rendered restaurants/show.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 23ms (Views: 16.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:37:00 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:00 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:00 +0100
+
+
+Started GET "/menus/new?restaurant_id=1" for 127.0.0.1 at 2014-10-31 21:37:07 +0100
+Processing by MenusController#new as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered menus/_form.html.erb (25.2ms)
+  Rendered menus/new.html.erb within layouts/application (26.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 55ms (Views: 38.5ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/menus/new?restaurant_id=1" for 127.0.0.1 at 2014-10-31 21:37:07 +0100
+Processing by MenusController#new as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered menus/_form.html.erb (6.0ms)
+  Rendered menus/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:37:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:07 +0100
+
+
+Started POST "/menus" for 127.0.0.1 at 2014-10-31 21:37:38 +0100
+Processing by MenusController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfesH4eE9LE/N4yCFO9svy+aI54EkCG94Ga0Rwb+P+s=", "menu"=>{"title"=>"Halloween", "description"=>"hallaejiwaejoiwejaf", "items_attributes"=>{"1414787844277"=>{"name"=>"", "price"=>"", "description"=>"", "_destroy"=>"false"}}, "restaurant_id"=>"1"}, "commit"=>"Create Event"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `menus` (`created_at`, `description`, `restaurant_id`, `title`, `updated_at`) VALUES ('2014-10-31 20:37:38', 'hallaejiwaejoiwejaf', 1, 'Halloween', '2014-10-31 20:37:38')
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `items` (`created_at`, `description`, `menu_id`, `name`, `updated_at`) VALUES ('2014-10-31 20:37:38', '', 1, '', '2014-10-31 20:37:38')[0m
+  [1m[35m (6.1ms)[0m  COMMIT
+Redirected to http://localhost:4000/menus/1
+Completed 302 Found in 22ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/menus/1" for 127.0.0.1 at 2014-10-31 21:37:38 +0100
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenu Load (0.2ms)[0m  SELECT  `menus`.* FROM `menus`  WHERE `menus`.`id` = 1 LIMIT 1
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT `items`.* FROM `items`  WHERE `items`.`menu_id` = 1[0m
+  Rendered menus/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 22ms (Views: 16.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:37:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:38 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:37:43 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (1.4ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 31.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:37:43 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (6.1ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 26.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:37:43 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:43 +0100
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:37:55 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (7.6ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.2ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (12.7ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 24.6ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2014-10-31 21:37:55 +0100
+Processing by RestaurantsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrganization Load (1.5ms)[0m  [1mSELECT  `organizations`.* FROM `organizations` INNER JOIN `organizations_users` ON `organizations`.`id` = `organizations_users`.`organization_id` WHERE `organizations_users`.`user_id` = 6  ORDER BY `organizations`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m  [["user_id", 6]]
+  Rendered restaurants/index.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 27.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:37:55 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:37:55 +0100
+
+
+Started GET "/restaurants/tanz-in-den-tod" for 127.0.0.1 at 2014-10-31 21:38:03 +0100
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"tanz-in-den-tod"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mRestaurant Load (0.3ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`slug` = 'tanz-in-den-tod'  ORDER BY `restaurants`.`id` ASC LIMIT 1[0m
+  [1m[35mMenu Load (0.2ms)[0m  SELECT `menus`.* FROM `menus`  WHERE `menus`.`restaurant_id` = 2
+  Rendered restaurants/show.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 20.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/tanz-in-den-tod" for 127.0.0.1 at 2014-10-31 21:38:03 +0100
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"tanz-in-den-tod"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mRestaurant Load (0.4ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`slug` = 'tanz-in-den-tod'  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36mMenu Load (0.3ms)[0m  [1mSELECT `menus`.* FROM `menus`  WHERE `menus`.`restaurant_id` = 2[0m
+  Rendered restaurants/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 22ms (Views: 15.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:38:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:38:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:38:03 +0100
+
+
+Started GET "/menus/new?restaurant_id=2" for 127.0.0.1 at 2014-10-31 21:38:06 +0100
+Processing by MenusController#new as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered menus/_form.html.erb (4.0ms)
+  Rendered menus/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 21ms (Views: 17.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus/new?restaurant_id=2" for 127.0.0.1 at 2014-10-31 21:38:06 +0100
+Processing by MenusController#new as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered menus/_form.html.erb (4.1ms)
+  Rendered menus/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:38:06 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:38:06 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:38:06 +0100
+
+
+Started POST "/menus" for 127.0.0.1 at 2014-10-31 21:38:09 +0100
+Processing by MenusController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfesH4eE9LE/N4yCFO9svy+aI54EkCG94Ga0Rwb+P+s=", "menu"=>{"title"=>"", "description"=>"", "restaurant_id"=>"2"}, "commit"=>"Create Event"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `menus` (`created_at`, `description`, `restaurant_id`, `title`, `updated_at`) VALUES ('2014-10-31 20:38:09', '', 2, '', '2014-10-31 20:38:09')
+  [1m[36m (4.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:4000/menus/2
+Completed 302 Found in 18ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/menus/2" for 127.0.0.1 at 2014-10-31 21:38:09 +0100
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenu Load (0.2ms)[0m  [1mSELECT  `menus`.* FROM `menus`  WHERE `menus`.`id` = 2 LIMIT 1[0m
+  [1m[35mItem Load (0.3ms)[0m  SELECT `items`.* FROM `items`  WHERE `items`.`menu_id` = 2
+  Rendered menus/show.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 21ms (Views: 15.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:38:09 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:38:09 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:38:09 +0100
+
+
+Started GET "/menus" for 127.0.0.1 at 2014-10-31 21:45:14 +0100
+Processing by MenusController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenu Load (0.2ms)[0m  SELECT `menus`.* FROM `menus`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  Rendered menus/index.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 28.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2014-10-31 21:45:14 +0100
+Processing by MenusController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenu Load (0.2ms)[0m  SELECT `menus`.* FROM `menus`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `roles` INNER JOIN `users_roles` ON `roles`.`id` = `users_roles`.`role_id` WHERE `users_roles`.`user_id` = 6 AND (((roles.name = 'owner') AND (roles.resource_type IS NULL) AND (roles.resource_id IS NULL)))  [["user_id", 6]]
+  Rendered menus/index.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 21:45:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-31 21:45:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 21:45:14 +0100
+
+
+Started GET "/menus.csv" for 127.0.0.1 at 2014-10-31 21:45:23 +0100
+Processing by MenusController#index as CSV
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenu Load (0.3ms)[0m  SELECT `menus`.* FROM `menus`
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 1.5ms | ActiveRecord: 0.5ms)
