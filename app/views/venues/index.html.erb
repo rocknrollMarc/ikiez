@@ -1,25 +1,22 @@
-<h1>Listing venues</h1>
+<h1>Listing venue</h1>
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Description</th>
-      <th>Created at</th>
-      <th>Updated at</th>
-      <th>Plan</th>
-      <th colspan="3"></th>
+      <th>Owner</th>
+      <th></th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
 
   <tbody>
-    <% @venues.each do |venue| %>
+    <% @venue.each do |venue| %>
       <tr>
         <td><%= venue.name %></td>
         <td><%= venue.description %></td>
-        <td><%= venue.created_at %></td>
-        <td><%= venue.updated_at %></td>
-        <td><%= venue.plan_id %></td>
         <td><%= link_to 'Show', venue %></td>
         <td><%= link_to 'Edit', edit_venue_path(venue) %></td>
         <td><%= link_to 'Destroy', venue, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -31,3 +28,4 @@
 <br>
 
 <%= link_to 'New Venue', new_venue_path %>
+
